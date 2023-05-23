@@ -111,5 +111,9 @@ m=input("text")
 n= input("NUMber")
 print(n+m)
 
+f= input('fruit name ')
+n=input ("how many? ")
+print(f"
+
 
 
