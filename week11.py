@@ -115,6 +115,12 @@ f= input('fruit name ')
 n=input ("how many? ")
 print(f"어제 {f}를 {n}깨 먹었씁니다")
 
+t = input(" 아무거나 써 숫자: ")
+tt = input(" 아무거나 써 숫자: ")
+print(f"{t}+{tt} = (t+tt),{t}-{tt} = (t-tt),{t}*{tt} = (t*tt),{t}/{tt} = (t/tt)")
+
+
+
 
 
 
