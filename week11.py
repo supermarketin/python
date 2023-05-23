@@ -113,7 +113,8 @@ print(n+m)
 
 f= input('fruit name ')
 n=input ("how many? ")
-print(f"
+print(f"어제 {f}를 {n}깨 먹었씁니다")
+
 
 
 
