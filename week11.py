@@ -106,24 +106,79 @@
 # #이게 아래걸로 바뀜
 # n = [int(y) for y in m]
 # print(m)
-
+1
 m=input("text")
 n= input("NUMber")
 print(n+m)
-
+2
+s='과천코딩2022'
+print(s[2],s[3],s[4],s[5])
+33
 f= input('fruit name ')
 n=input ("how many? ")
 print(f"어제 {f}를 {n}깨 먹었씁니다")
-
+4
 t = input(" 아무거나 써 숫자: ")
 tt = input(" 아무거나 써 숫자: ")
 print(f"{t}+{tt} = (t+tt),{t}-{tt} = (t-tt),{t}*{tt} = (t*tt),{t}/{tt} = (t/tt)")
-
+5
+mum = input(" 아무거나 써 숫자: ")
 if mum % 2 == 0: 
     print('even')
 else :
     print('odd')
+6
+p = input(" 아무거나 써 숫자: ")
 
+for a in range(1, input_num+1 ):
+    if input_num % a == 0:
+        print(a,"(은)는 약수")
+       
+7
+u = input(" 아무거나 써 숫자: ")
+v=0
+for i in range(2,a)
+    if a/i==0:
+        b =1
+if b==1 or a==1 or a==0
+    print('false')
+else
+    print("true")
+8    
+g = input(" 2-9 사이의 숫자를 써라 안그러ㅕㄴ 청개구리: ")
+for i in range(1,10)
+    print( g,'*' , i, '=' , g*i)
+9
+print('1부터 n까지 정수의 합을 구합니다.')
+n = int(input('n값을 입력하세요.: '))
+sum = 0
+i = 1
+while i <= n:
+  sum = sum + i    
+  i = i + 1        
+print(f'1부터 {n}까지 정수의 합은 {sum}입니다.')
+10
+n = int(input("Input number: "))
+for i in range(1, n+1) :
+	s = str(i)
+	count = 0
+	for x in s :
+    	# 3, 6, 9 문자가 있으면
+		if (x=='3') or (x=='6') or (x=='9') :
+			count += 1
+	if count == 0 :
+		print(i, end=' ')
+	else :
+		# count 수만큼 X를 출력, 출력 글자 띄기로 구분
+		print(count*'X', end=' ')
+12
+n = int(input("Input number: "))
+for i in range(n): # 정방향
+    print(' ' * ((n-1) - i) + '*' * (i * 2 + 1))
+for i in range(n): # 역방향
+    print(' ' * i + '*' * ((n*2-1) - (2 * i)))
+    
+        
 
 
 
