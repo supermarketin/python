@@ -107,4 +107,9 @@
 # n = [int(y) for y in m]
 # print(m)
 
+m=input("text")
+n= input("NUMber")
+print(n+m)
+
+
 
