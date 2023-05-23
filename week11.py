@@ -119,6 +119,10 @@ t = input(" 아무거나 써 숫자: ")
 tt = input(" 아무거나 써 숫자: ")
 print(f"{t}+{tt} = (t+tt),{t}-{tt} = (t-tt),{t}*{tt} = (t*tt),{t}/{tt} = (t/tt)")
 
+if mum % 2 == 0: 
+    print('even')
+else :
+    print('odd')
 
 
 
